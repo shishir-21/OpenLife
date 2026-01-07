@@ -19,7 +19,7 @@ export default function BaseLayout({ title = 'OpenLife', subtitle = 'Daily Workf
             </Link>
             <a
               className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-slate-100 transition hover:border-emerald-300/70 hover:text-emerald-100"
-              href="https://github.com/"
+              href="https://github.com/BhupinderSehjal/OpenLife"
               target="_blank"
               rel="noreferrer"
             >

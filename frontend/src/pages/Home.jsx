@@ -1,4 +1,5 @@
 import DailySummary from '../components/DailySummary'
+import GlassCard from '../components/GlassCard'
 import Tasks from '../components/Tasks'
 import Timer from '../components/Timer'
 

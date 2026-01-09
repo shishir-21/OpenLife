@@ -2,7 +2,7 @@
 
 OpenLife is an open-source personal productivity manager designed to help users manage tasks, habits, notes, and daily life efficiently.
 
-<a href="https://openlife-chi.vercel.app/">For Live Preview Click Here</a>
+<a href="openlife-nine.vercel.app">For Live Preview Click Here</a>
 
 ## 🚀 Vision
 To build a free, community-driven productivity platform that grows with contributors.

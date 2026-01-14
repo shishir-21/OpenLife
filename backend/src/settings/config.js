@@ -4,6 +4,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 const authRouter = require("../auth/auth.router.js");
 const usersRouter = require("../users/users.router.js");
+const taskRouter = require("../tasks/tasks.router.js");
 const responseFormatter = require("../middleware/responseFormatter.middleware.js");
 const { StatusCodes } = require("http-status-codes");
 const expressWinstonLogger = require("../middleware/expressWinston.middleware.js");
@@ -54,6 +55,7 @@ app.use(expressWinstonLogger);
 //  Defining Routes
 app.use("/", authRouter);
 app.use("/users", usersRouter);
+app.use("/", taskRouter);
 
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpecs));

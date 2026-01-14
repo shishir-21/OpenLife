@@ -7,7 +7,7 @@ async function createUserProvider(req, res) {
 
     const validatedData = matchedData(req);
     const fullPath = req.file ? req.file.path : null;
-     const relativePath = fullPath.substring(fullPath.indexOf("uploads"));
+     const relativePath = fullPath?.substring(fullPath.indexOf("uploads"));
 
      //  Check if there is an existing user
   const existingUser = await User.findOne({ email: validatedData.email });

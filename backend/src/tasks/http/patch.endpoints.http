@@ -1,0 +1,8 @@
+PATCH http://localhost:3001/tasks
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2OTY3NGQzOGM5MWI1MjgxZTFhOTAyMWYiLCJlbWFpbCI6InBia2FyYW45OTlAZ21haWwuY29tIiwiaWF0IjoxNzY4MzgwNzI2LCJleHAiOjE3Njg0NjcxMjZ9.w6Gf9L_MUo07sjhcHhsZdjMs-lzSfWmJpGMQf8NAJSI
+
+{
+  "_id":"69675c93e6dfc00eb774d84c",
+  "period" : "weekly"
+}
